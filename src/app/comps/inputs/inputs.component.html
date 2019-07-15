@@ -1,0 +1,12 @@
+<form (input)="bindMyForm(myForm)" #myForm="ngForm">
+    <label>שם:</label><br>
+    <input #userName name="name" [(ngModel)]="myForm.name"><br><br>
+    <label>ת.ז.</label><br>
+    <input #userId name="id" [(ngModel)]="myForm.id" type="number" ><br><br>
+    <label>טל':</label><br>
+    <input #userTel name="tel" [(ngModel)]="myForm.tel" type="number" ><br><br>
+    <label>מייל:</label><br>
+    <input #userEmail name="email" [(ngModel)]="myForm.email"><br><br>
+    <button (click)="onAddUser(userName, userId, userTel, userEmail)">הוסף לטבלה</button>
+</form>
+

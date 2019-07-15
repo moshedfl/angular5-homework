@@ -1,0 +1,25 @@
+app-inputs{
+    background-color: rgb(168, 118, 214);
+    float:right;
+    width: 30%;
+    margin: 3%;
+    padding: 20px;
+}
+
+app-table{
+    background-color: yellow;
+    float: left;;
+    width: 45%;
+    height: 80vh;
+    margin: 3%;
+    padding: 20px;
+}
+
+app-reset{
+    background-color:red;
+    float:right;
+    width: 30%;
+    margin: 3%;
+    padding: 20px;
+    text-align:center
+}

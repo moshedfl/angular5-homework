@@ -1,0 +1,19 @@
+
+<table>
+    <thead>    
+        <tr>
+            <th>שם:</th>
+            <th>ת.ז.</th>
+            <th>טל':</th>
+                <th>מייל:</th>
+        </tr>
+    </thead>
+    <tbody>    
+        <tr  *ngFor="let user of user">
+            <td>{{user.name}}</td>
+            <td>{{user.id}}</td>
+            <td>{{user.tel}}</td>
+            <td>{{user.email}}</td>
+        </tr>
+    </tbody>    
+</table>
